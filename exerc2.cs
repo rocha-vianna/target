@@ -14,11 +14,6 @@ else
     Console.WriteLine($"O número {numero} não pertence à sequência de Fibonacci.");
 }
 
-/// <summary>
-/// Verifica se um número pertence à sequência de Fibonacci.
-/// </summary>
-/// <param name="numero">O número a ser verificado.</param>
-/// <returns>True se o número pertence à sequência, False caso contrário.</returns>
 static bool VerificarFibonacci(int numero)
 {
     if (numero < 0)
